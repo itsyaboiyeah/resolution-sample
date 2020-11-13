@@ -96,3 +96,7 @@ class ConfigurationDetectionDependencyResolutionListener
 }
 
 gradle.addListener(new ConfigurationDetectionDependencyResolutionListener(gradle))
+
+wartremover {
+    errorWarts.add('Any')
+}
